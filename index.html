@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./imagenes/Logo.png" alt="Logo de alura">
+    </header>
+        <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <img src="./imagenes/Group.png" alt="Icono de alerta"><span class="informacion">Solo letras en minúsculas y sin acento.</span>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()" >Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()" >Desencriptar</button>          
+            </div>
+        </section>
+        
+        <section>
+            <textarea class="mensaje" cols="20" rows="10" placeholder=""></textarea>
+        <div>
+            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+        </div>
+        </section>
+        </main>
+
+        <footer>   
+            <p class="footer">Diseñado por Zinnia Tinoco @2024</p>
+    
+<script src="/script.js"> </script>
+</body>
+</html>
